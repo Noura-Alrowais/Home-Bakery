@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Japanese.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

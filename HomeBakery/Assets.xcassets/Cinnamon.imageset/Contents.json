@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Cinnamon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

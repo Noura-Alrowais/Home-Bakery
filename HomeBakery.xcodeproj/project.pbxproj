@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7DD24432D4232D70090B232 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7DD24422D4232D70090B232 /* SF-Pro-Rounded-Bold.otf */; };
+		B7DD24452D4233460090B232 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7DD24442D4233460090B232 /* SF-Pro-Rounded-Medium.otf */; };
+		B7DD24752D4767380090B232 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7DD24742D4767380090B232 /* SF-Pro-Rounded-Semibold.otf */; };
+		B7DD24792D493DE10090B232 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7DD24782D493DE10090B232 /* SF-Pro-Rounded-Regular.otf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B79E1FB62D3E37BF00A68EC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +34,28 @@
 		B79E1FA52D3E37BD00A68EC0 /* HomeBakery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeBakery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79E1FB52D3E37BF00A68EC0 /* HomeBakeryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeBakeryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79E1FBF2D3E37BF00A68EC0 /* HomeBakeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeBakeryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DD24422D4232D70090B232 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		B7DD24442D4233460090B232 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		B7DD24742D4767380090B232 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		B7DD24782D493DE10090B232 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7DD24412D422A090090B232 /* Exceptions for "HomeBakery" folder in "HomeBakery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B79E1FA42D3E37BD00A68EC0 /* HomeBakery */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B79E1FA72D3E37BD00A68EC0 /* HomeBakery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7DD24412D422A090090B232 /* Exceptions for "HomeBakery" folder in "HomeBakery" target */,
+			);
 			path = HomeBakery;
 			sourceTree = "<group>";
 		};
@@ -79,6 +103,10 @@
 				B79E1FB82D3E37BF00A68EC0 /* HomeBakeryTests */,
 				B79E1FC22D3E37BF00A68EC0 /* HomeBakeryUITests */,
 				B79E1FA62D3E37BD00A68EC0 /* Products */,
+				B7DD24422D4232D70090B232 /* SF-Pro-Rounded-Bold.otf */,
+				B7DD24442D4233460090B232 /* SF-Pro-Rounded-Medium.otf */,
+				B7DD24742D4767380090B232 /* SF-Pro-Rounded-Semibold.otf */,
+				B7DD24782D493DE10090B232 /* SF-Pro-Rounded-Regular.otf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DD24792D493DE10090B232 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				B7DD24752D4767380090B232 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				B7DD24452D4233460090B232 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				B7DD24432D4232D70090B232 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +431,7 @@
 				DEVELOPMENT_TEAM = 7V6D5R973T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeBakery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +461,7 @@
 				DEVELOPMENT_TEAM = 7V6D5R973T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeBakery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
